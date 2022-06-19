@@ -16,7 +16,7 @@ public class EmployeeDetailsAction {
 	
 	@GetMapping("/{id}")
 	@Log(name = "EmployeeApplication")
-	public String emp(@PathVariable(value = "id") Integer id) {
+	public String emp(@PathVariable(value = "id") String id) {
 		log.info("You are given id : "+id);
 		return "Hello Arindam bose, you are no "+id;
 	}

@@ -9,19 +9,14 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.employee</groupId>
-	<artifactId>basic.details</artifactId>
-	<version>0.0.1</version>
+	<artifactId>logger.demo</artifactId>
+	<version>1.0.0</version>
 	<name>EmployeeApplication</name>
 	<description>sample project for Spring Boot</description>
 	<properties>
 		<java.version>11</java.version>
 	</properties>
 	<dependencies>
-<!-- 		<dependency> -->
-<!-- 			<groupId>org.springframework.boot</groupId> -->
-<!-- 			<artifactId>spring-boot-starter-web</artifactId> -->
-<!-- 		</dependency> -->
-
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-devtools</artifactId>
@@ -43,9 +38,9 @@
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
 		<dependency>
-			<groupId>logger-client</groupId>
-			<artifactId>logger-client</artifactId>
-			<version>0.0.1</version>
+			<groupId>comm.logger</groupId>
+			<artifactId>client</artifactId>
+			<version>1.0.0</version>
 		</dependency>
 	</dependencies>
 
@@ -65,5 +60,4 @@
 			</plugin>
 		</plugins>
 	</build>
-
 </project>
